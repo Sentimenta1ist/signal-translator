@@ -8,12 +8,12 @@ Year: 2021-2022 · Language: C++ · Context: university coursework (KPI), "Trans
 
 | Folder | What it does |
 |---|---|
-| `lab1/` | Lexical analyzer: reads `input.sig`, prints lexeme table (row, column, code, text), plus id / number / separator tables and lexer errors. Report: `Ivanenko_lab1_report.pdf`, grammar in `gram.png`, automaton in `graph.png` |
-| `lab2/` | Lexer + parser + code generator. Prints the parse tree, tables and the generated ASM. Report: `lab2_report.pdf` |
-| `rgr/` | Term project ("syntax analyzer"): lexer + parser with parse tree and error listing (no generator). Report: `Ivanenko_rgr_report.pdf` |
+| `lab1/` | Lexical analyzer: reads `input.sig`, prints lexeme table (row, column, code, text), plus id / number / separator tables and lexer errors. Grammar in `gram.png`, automaton in `graph.png` |
+| `lab2/` | Lexer + parser + code generator. Prints the parse tree, tables and the generated ASM. |
+| `rgr/` | Term project ("syntax analyzer"): lexer + parser with parse tree and error listing (no generator). |
 | `*/tests/testNN/` | Each case has `input.sig` and `expected.txt` (reference output) |
 
-Source files in each folder: `lexer.*`, `lexeme.*`, `parser.*`, `tree.*`, `Err.*`, `generator.*` (lab2 only), `main.cpp`. Reports are in Ukrainian.
+Source files in each folder: `lexer.*`, `lexeme.*`, `parser.*`, `tree.*`, `Err.*`, `generator.*` (lab2 only), `main.cpp`.
 
 ## Interesting bits
 
