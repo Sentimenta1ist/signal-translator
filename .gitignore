@@ -1,0 +1,8 @@
+__pycache__/
+.DS_Store
+.idea/
+*.iml
+cmake-build-*/
+*.o
+# output written by the programs next to input.sig
+generated.txt
